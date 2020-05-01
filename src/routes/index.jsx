@@ -4,12 +4,12 @@ import {
   Route,
   Switch,
 } from "react-router-dom";
-import Layout1 from 'layouts';
-import Home from 'pages/home'
+import Layout1 from '..layouts';
+import Home from '../pages/home'
 
-import SignIn from 'pages/SignIn'
-import SignUp from 'pages/SignUp'
-import ExamText from 'pages/Exam/ExamText'
+import SignIn from '../pages/SignIn'
+import SignUp from '../pages/SignUp'
+import ExamText from '../pages/Exam/ExamText'
 
 function NoMatch({ location }) {
     return (
