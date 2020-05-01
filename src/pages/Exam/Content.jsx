@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Preguntas from "Util/Preguntas";
+import Preguntas from "../.Util/Preguntas";
 import { useLocalStorage } from "./../../Util/variables.js";
 import Swal from "sweetalert2";
 import {  Progress } from "antd";
