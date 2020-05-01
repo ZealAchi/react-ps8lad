@@ -4,7 +4,7 @@ import {
   Route,
   Switch,
 } from "react-router-dom";
-import Layout1 from '../layouts';
+import Layout1 from '../Layouts/ind';
 import Home from '../pages/home'
 
 import SignIn from '../pages/SignIn'
